@@ -1,11 +1,16 @@
 defmodule ExmealWeb.UsersView do
   use ExmealWeb, :view
 
-  def render() do
-    # TO DO
+  def render("create.json", %{user: user}) do
+    %{
+      user: %{
+        user: user
+      },
+      message: "User created!"
+    }
   end
 
-  def render() do
-    # TO DO
+  def render("user.json", %{user: user}) do
+    %{user: user}
   end
 end

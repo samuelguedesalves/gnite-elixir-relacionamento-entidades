@@ -18,7 +18,7 @@ defmodule Exmeal.MealsControllerTest do
         |> post(Routes.meals_path(conn, :create, params))
         |> json_response(:created)
 
-        %{"meals" => %{"meal" => %{"id" => id}}} = response
+      %{"meals" => %{"meal" => %{"id" => id}}} = response
 
       assert %{
                "meals" => %{

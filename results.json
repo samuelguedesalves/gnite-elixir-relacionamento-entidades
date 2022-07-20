@@ -1,0 +1,288 @@
+{
+  "excluded": [],
+  "failed": [],
+  "invalid": [],
+  "passed": [
+    {
+      "describe": "changeset/1",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/meal_test.exs",
+      "line": 11,
+      "module": "Elixir.Exmeal.MealTest",
+      "test": "test changeset/1 when all params are valid, returns a valid changeset"
+    },
+    {
+      "describe": "Get Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/meals/get_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.GetTest",
+      "test": "test Get Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Get Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/meals/get_test.exs",
+      "line": 30,
+      "module": "Elixir.Exmeal.Meals.GetTest",
+      "test": "test Get Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Delete Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/meals/delete_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Delete Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/meals/delete_test.exs",
+      "line": 30,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "changeset/1",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/user_test.exs",
+      "line": 11,
+      "module": "Elixir.Exmeal.UserTest",
+      "test": "test changeset/1 when all params are valid, returns a valid changeset"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/meals/update_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.UpdateTest",
+      "test": "test Update Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/meals/update_test.exs",
+      "line": 30,
+      "module": "Elixir.Exmeal.Meals.UpdateTest",
+      "test": "test Update Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Delete user",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/users/delete_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Users.DeleteTest",
+      "test": "test Delete user when a valid id is given, returns the user"
+    },
+    {
+      "describe": "Delete user",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/users/delete_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Users.DeleteTest",
+      "test": "test Delete user when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Get User",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/users/get_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Users.GetTest",
+      "test": "test Get User when a valid id is given, returns the user"
+    },
+    {
+      "describe": "Get User",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/users/get_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Users.GetTest",
+      "test": "test Get User when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/users/update_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.User.UpdateTest",
+      "test": "test Update Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/users/update_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.User.UpdateTest",
+      "test": "test Update Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 115,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test update/2 when not exist id, return an error"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 75,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id not exist, return an error"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 107,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test update/2 when not exist id, return an error"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 128,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test get/2 when id exist, return the meal"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 66,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test delete/2 when id not exist, return an error"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 37,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when there are invalid params, returns an error"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 120,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test get/2 when id exist, return the meal"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 90,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test update/2 when id exist, update the meal"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 32,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test create/2 when there are invalid params, returns an error"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 81,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test update/2 when id exist, update the user"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 58,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id exist, delete the meal"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 53,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test delete/2 when id exist, delete the user"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when all params are valid, creates a meal"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test create/2 when all params are valid, creates a user"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 142,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test get/2 when id not exist, return an error"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 153,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test get/2 when id not exist, return an error"
+    },
+    {
+      "describe": null,
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/views/users_view_test.exs",
+      "line": 12,
+      "module": "Elixir.ExmealWeb.UsersViewTest",
+      "test": "test render create.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/views/users_view_test.exs",
+      "line": 32,
+      "module": "Elixir.ExmealWeb.UsersViewTest",
+      "test": "test render user.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/views/meals_test.exs",
+      "line": 12,
+      "module": "Elixir.ExmealWeb.MealsViewTest",
+      "test": "test render create.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/views/meals_test.exs",
+      "line": 36,
+      "module": "Elixir.ExmealWeb.MealsViewTest",
+      "test": "test render meal.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/views/error_view_test.exs",
+      "line": 7,
+      "module": "Elixir.ExmealWeb.ErrorViewTest",
+      "test": "test renders 404.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal_web/views/error_view_test.exs",
+      "line": 11,
+      "module": "Elixir.ExmealWeb.ErrorViewTest",
+      "test": "test renders 500.json"
+    },
+    {
+      "describe": "Create Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/meals/create_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when all params are valid, returns the meal"
+    },
+    {
+      "describe": "Create User",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/users/create_test.exs",
+      "line": 7,
+      "module": "Elixir.Exmeal.Users.CreateTest",
+      "test": "test Create User when all params are valid, returns the user"
+    },
+    {
+      "describe": "Create User",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/users/create_test.exs",
+      "line": 22,
+      "module": "Elixir.Exmeal.Users.CreateTest",
+      "test": "test Create User when there are invalid params, returns an error"
+    },
+    {
+      "describe": "Create Meal",
+      "file": "/home/wsl/gnite-elixir-relacionamento-entidades/test/exmeal/meals/create_test.exs",
+      "line": 27,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when there are invalid params, returns an error"
+    }
+  ],
+  "skiped": []
+}

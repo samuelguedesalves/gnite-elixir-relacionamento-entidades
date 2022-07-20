@@ -11,10 +11,16 @@ defmodule Exmeal.User do
   @required_params [:cpf, :email, :name]
 
   schema "users" do
-    # TO DO
+    field :name, :string
+    field :cpf, :string
+    field :email, :string
   end
 
-  def changeset() do
-    # TO DO
+  def changeset(struct \\ %__MODULE__{}, params) do
+    struct
+    |> cast(params, @required_params)
+    |> validate_required(@required_params)
+    |> validate_length(:cpf, is: 11)
+    |> validate_format(:email, ~r/@/)
   end
 end
